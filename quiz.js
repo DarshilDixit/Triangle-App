@@ -5,7 +5,6 @@ var outputScore = document.querySelector(".output-msg");
 var correctAnswers = ['90°', 'Right angled', 'Equilateral triangle'];
 
 function calculateScore() {
-    
     var formResults = new FormData(quizForm);
     let score = 0,
       index = 0;
