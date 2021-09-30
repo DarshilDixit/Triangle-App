@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Triangle Quiz</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Is Triangle?</a>
+        <a href="quiz.html" class="item-active">Quiz</a>
+        <a href="hypotenuse.html">Hypotenuse</a>
+        <a href="area.html">Area</a>
+    </nav>
+    <main>
+        <h1 class="heading">Triangle Quiz</h1>
+
+        <form class="container quiz-form">
+            <div class="quiz-container">
+                <p>
+                    What is the third angle for the triangle where angle1 = 45° and angle2
+                    = 45°?
+                </p>
+                <label>
+                    <input required type="radio" name="options" value="45°" />
+                    45°
+                </label>
+                <label>
+                    <input required type="radio" name="options" value="60°" />
+                    60°
+                </label>
+                <label>
+                    <input required type="radio" name="options" value="90°" />
+                    90°
+                </label>
+            </div>
+
+            <div class="quiz-container">
+                <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+                <label>
+                    <input required type="radio" name="option1" value="Obtuse" />
+                    obtuse
+                </label>
+                <label>
+                    <input required type="radio" name="option1" value="Acute" />
+                    acute
+                </label>
+                <label>
+                    <input required type="radio" name="option1" value="Right angled" />
+                    right angled
+                </label>
+            </div>
+
+            <div class="quiz-container">
+                <p>If a triangle has all the angles of same value, what is it called?</p>
+                <label>
+                    <input required type="radio" name="option2" value="Scalene triangle" />
+                    obtuse
+                </label>
+                <label>
+                    <input required type="radio" name="option2" value="Equilateral triangle" />
+                    acute
+                </label>
+                <label>
+                    <input required type="radio" name="option2" value="Isosceles " />
+                    right angled
+                </label>
+            </div>
+            <button id="submit-button" class="btn" type="submit">Submit Form</button>
+        </form>
+           
+        <h2 class="output-msg"></h2>
+       
+    </main>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

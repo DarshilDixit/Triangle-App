@@ -1,6 +1,6 @@
 var angleInput = document.querySelectorAll(".angle-container");
 var checkButton = document.querySelector("#check-button");
-var outputMsg = document.querySelector("#output-msg");
+var outputMsg = document.querySelector(".output-msg");
 
 
 
