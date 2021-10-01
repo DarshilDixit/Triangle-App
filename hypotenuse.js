@@ -1,6 +1,6 @@
 var sides = document.querySelectorAll(".side-input");
 var checkButton = document.querySelector("#check-button");
-var outputHypotenuse = document.querySelector("#output-msg");
+var outputHypotenuse = document.querySelector(".output-msg");
 
 
 function calculateHypotenuse() {

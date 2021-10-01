@@ -1,6 +1,6 @@
 var inputs = document.querySelectorAll(".side-input");
 var checkAreaButton = document.querySelector("#check-button");
-var checkOutputArea = document.querySelector("#output-msg");
+var checkOutputArea = document.querySelector(".output-msg");
 
 checkAreaButton.addEventListener("click", calculateArea);
 
